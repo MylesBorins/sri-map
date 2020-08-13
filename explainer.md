@@ -16,6 +16,7 @@ A straw proposal for syntax below
 ```json
 {
   "https://example.com/example-framework.js": "sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC"
+}
 ```
 
 The left hand side is the resource, the right hand side the SRI. This would scale to various resource types, not limited to JavaScript. it could integrate into the existing integrity checks already in HTML for any resources in the map. I would imagine that it would likely support all the types of meta data currently support [by the integrity attribute](https://www.w3.org/TR/SRI/#the-integrity-attribute)
